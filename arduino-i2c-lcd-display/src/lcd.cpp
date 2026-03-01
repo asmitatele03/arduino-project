@@ -1,10 +1,6 @@
 #include <Arduino.h>
 #include "lcd_.h"
 
-
-
-
-
 // Create LCD object at I2C address 0x27
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
