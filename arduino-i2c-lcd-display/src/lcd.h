@@ -2,6 +2,10 @@
 #define LCD_H
 
 #include <Wire.h>
+
+
+
+
 #include <LiquidCrystal_I2C.h>
 #include "delay.h"     // include delay header
 
