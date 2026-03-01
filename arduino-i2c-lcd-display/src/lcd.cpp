@@ -7,6 +7,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 void lcd_init() {
     lcd.init();
     lcd.backlight();
+
+
+
+    
 }
 
 void lcd_print_lines(const char *line1, const char *line2) {
